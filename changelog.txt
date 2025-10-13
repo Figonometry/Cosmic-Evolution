@@ -1,3 +1,12 @@
+Alpha v0.28
+  -Added a crash window that will pop up if the main thread crashes, this will not detect OpenGL driver crashes
+  -Tech updte event now displays properly when a tech is known and locked
+  -Foraging I and Stone Hand Tools descriptions are now properly aligned
+  -Added a tech description for Hunting I
+  -Deer now take fall damage
+  -Deer are now properly affected by fog
+  -Block models are now accurate for block type when held in hand, on the ground as an entity, and when in the inventory view
+
 Alpha v0.27
   -WORLDS FROM PREVIOUS VERSIONS ARE INCOMPATIBLE
   -Water is now lowered correclty when waves are off
