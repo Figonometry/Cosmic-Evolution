@@ -114,7 +114,7 @@ Alpha v0.18
   -Resized the Sun and Moon to be more accurate
 
 Alpha v0.17
-  -Prticles no longer render when farther than 32 blocks
+  -Particles no longer render when farther than 32 blocks
   -Heavily modified the block collision system
   -Added Deer, spawnable with G
   -Horizontal render distance is no longer set to 20 on first load
