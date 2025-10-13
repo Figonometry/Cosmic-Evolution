@@ -1,3 +1,20 @@
+
+Alpha v0.4
+  -Added skylighting
+  -Placing blocks no longer crashes the game
+  -Chunks on negative x/z axes now render properly
+
+Alpha v0.3.1
+  -You can no longer place blocks through corners
+  -Chunks no longer fail to render when setting light values
+  -Skylighting and noisemap arrays no longer run out of space
+  -Block shadows now reset when chunks unload
+  -The player can now place blocks directly below them
+  -Step sounds now play when fallling onto a block
+  -Reduced the size of the crosshair
+  -Reduced max render distance from 10 to 8 chunks
+  -Placing blocks no longer crashes the game
+
 Alpha v0.3
   -Fixed mouse being offset vertically from buttons
   -Improved rendering performance with GUIs
@@ -5,7 +22,6 @@ Alpha v0.3
   -Added sounds for breaking/placing blocks, for stepping, and a water splash sound
   -The player is now slowed down when moving backwards
   -Star twinkling effect is no longer tied to framerate
-
 
 Alpha v0.2
   -Fog now starts further away from the player
