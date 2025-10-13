@@ -1,6 +1,28 @@
+Alpha v0.3
+  -Fixed mouse being offset vertically from buttons
+  -Improved rendering performance with GUIs
+  -Fixed automatically jumping when exiting water
+  -Added sounds for breaking/placing blocks, for stepping, and a water splash sound
+  -The player is now slowed down when moving backwards
+  -Star twinkling effect is no longer tied to framerate
 
+
+Alpha v0.2
+  -Fog now starts further away from the player
+  -Added a pause menu in game
+  -Added sounds
+  -Added a video settings menu to both in game and main menus
+  -Added a controls menu for rebindking key controls
+  -Crosshail is now transparent
+  -Water is now transparent
+  -Water is no longer solid
+  -Added swimming physics
+  -Changed player jump physics
+  -Block IDs would sometimes causes crashes
+  -Changed the player to now spawn on the ground
+  -Improved general chunkloading performance
 
 Alpha v0.1
--Added infinite world generation
--Added grass, dirt, torches, stone, sand, water and snow blocks, water is notably solid
--Added the main menu screen and a small in game UI to display what blocks are being placed
+  -Added infinite world generation
+  -Added grass, dirt, torches, stone, sand, water and snow blocks, water is notably solid
+  -Added the main menu screen and a small in game UI to display what blocks are being placed
