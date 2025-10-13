@@ -1,3 +1,58 @@
+Alpha v0.10
+  -Added the ability to left click and move items around the inventory
+  -Added the ability to right click to split item stacks
+  -Added the ability to left click to merge item stacks
+  -Block entities are now affected by fog
+  -Added level saving and loading
+  -Added menu screens to select an existing save, create a new save, and rename a save
+  -Added shadows under entities
+  -Added a sound effect when picking up items
+
+Alpha v0.9
+  -Removed the ability to freely place any block
+  -Blocks are no longer broken instantly
+  -Added a breaking overlay when breaking blocks
+  -Added an inventory UI
+  -Added a hotbar
+  -Added an inventory, items can stack up to 100
+  -Torches are no longer obtainable
+  -Water is no longer obtainable
+  -Added dropped block entities
+
+Alpha v0.8
+  -Tweaked world generation to have variety in mountains and flatlands
+  -Re-enabled skylighting
+
+Alpha v0.7.1
+  -Screen overlay now works when inside of a block
+  -Changed the loading screen to better reflect the loading process
+  -Block selection outline no longer draws through other blocks
+  -Torches now have a block selection outline
+
+Alpha v0.7
+  -Lowered saturation on grass, dirt, and logs
+  -Increased saturation of leaves
+  -Terrain generation now uses 3D noise
+  -Text drawn on the screen now has a shadow effect
+  -Sky lighting has been temporarily disabled due to performance
+
+Alpha v0.6
+  -Changed the oak tree design
+  -Added 16 different size variants for logs and different facing directions
+  -Changed leaves to be opaque due to performance
+  -Textures now use mipmapping
+  -Changed the loading bar
+  -Chunks no longer fail to render
+
+Alpha v0.5
+  -Improved performance relating to skylighting
+  -Added log blocks
+  -Added leaf blocks
+  -Added temporary trees
+  -Solid blocks no longer cause a crash when checking for light blocks
+  -Added a loading screen GUI when loading into a world
+  -Added a place/break sound for torches
+  -Added a block selection outline
 
 Alpha v0.4
   -Added skylighting
