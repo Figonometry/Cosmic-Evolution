@@ -1,3 +1,218 @@
+Alpha v0.27
+  -WORLDS FROM PREVIOUS VERSIONS ARE INCOMPATIBLE
+  -Water is now lowered correclty when waves are off
+  -You can no longer light fires if there are less than 4 logs
+  -Tools now take damage when hitting deer
+  -Player inventory slot numbers are now reset on death
+  -Added a UI for chests
+  -Added chest saving/loading to the world
+  -Added special icons for exclusive inventory slots
+  -Fixed many right click interactions being executed every tick when the mouse was held down
+  -You can no longer bypass the stack limit by right clicking with the same item
+  -Vertex normals now work on deer when shadows are disabled
+  -Vertex normals now work correctly on rocks and sticks
+  -Correct number of items are dropped when removing a straw basket from the inventory
+  -Chest collision boxes are now 0.5 blocks tall
+  -The player now snaps up on bounding boxes that are less than 0.5 blocks tall
+  -Hotbar now properly loops when scrolling
+  -The selected hotbar slot is now darker
+
+Alpha v0.26
+  -Added Item tooltips
+  -Fixed particles not rendering correctly
+  -All Guis in game now display the elements of the normal in game GUI
+  -Bug report button is now active, there is a bug report email address set up
+  -Pressing the number keys on the top row will now go directly to that inventory slot
+  -The player will now fall when in various UIs
+  -Changed the player inventory UI background
+  -Changed the background image for the crafting stone tools UI
+  -Added in inventory slojts for armor, clothign, offhand items and storage
+  -Reduced pickup time for items from 2 seconds to 1 second
+  -You can now place torches again
+  -Added straw chests, no functionality
+  -Added straw baskets to increase player inventory slots,
+  -Added a straw storage crafting UI, accessible by using a knife on straw placed down with 8 straw in the inventory
+  -Fixed a duplication bug
+
+Alpha v0.25
+  -Berry bushes are now colored according to biome
+  -Updated leaf texture
+  -Trees, rocks, cacti, and tall grass no longer spawn incorrectly
+  -Sticks now generate under trees
+
+Alpha v0.24
+  -Deer now drop raw venison
+  -Killing a deer now causes a tech update event
+  -Added raw venison food item
+  -Right clicking logs with axes now drops firewood
+  -Added firewood item
+  -Added tall grass blocks
+  -Added straw item
+  -Breaking tall grass with a knife drops straw
+  -Campfires now have proper models with firewood logs
+  -Campfires are now created by first right clicking the ground with straw
+  -Campfires now required 4 firewood to fully complete
+
+Alpha v0.23
+  -Fixed depth precision issues related to shadows
+  -Updated textures for stone hand tools and stone fragments
+  -Added stick block models
+  -Unlit torches can now be made by right clicking stone fragments on a stick on the gorund
+  -Items are no longer unintentionally consumed when right clicking on a block
+  -Deer can no longer be spawned by pressing G
+  -Deer now spawn naturally in groups of 1 to 4
+  -Dropped items will now despawn after 15 minutes on the ground
+  -Deer will now despawn after a random length of time up to 15 minutes
+  -Deer now save/load to disk
+  -Deer now drop berries on death
+
+Alpha v0.22
+  -Improved performance
+  -Added descriptions to the Foraging I and Stone Hand Tools techs
+  -Added a progress indicator on known techs
+  -Added line to show what features a tech unlocks
+  -Added tech logging events for crafting stoen tools and harvesting berries
+  -Tech progress along with the tech states are saved/loaded from disk
+  -Updated the block model for berry bushes
+  -Added a flowering stage to berry bushes
+  -Berry bushes now drop themselves when broken
+  -Berry brushes no longer break instantly
+
+Alpha v0.21
+  -Added settings for water waves, leaf movement, and leaf transparency
+  -Stone item on the ground now given a proper model
+  -Stone item texture updated
+  -Stone crafting UI overhauled
+  -Added stone crafting recipes: knife blade, hand shovel, hand axe, fragments
+  -Light now casts through transparent blocks with shadows
+  -Hand axe no longer be right clicked on logs to turn them into sticks
+
+Alpha v0.20
+  -Added deserts
+  -Added cactus blocks and cactuses to deserts
+  -Grass and Oak leaves are now colored according to the temperature and rainfall values
+  -Added temperature and rainfall, temperature varies over a year in game
+  -Updated the sun and moon's movement to better reflect high latitude movements
+  -Improved worldgen structure generation efficiency
+
+Alpha v0.19
+  -Added in a tech tree system, menu accessible by pressing ~, system not impelemented
+  -Added variable sizes and italics to fonts
+  -You can no longer fall through blocks at y 64
+  -Dropped items no longer shoot up really high
+
+Alpha v0.18
+  -Overhauled the lighting system to improve visual qualilty utilizing normals and shadows
+  -Block/Entity faces facing towards the sun are more lit than block faces facing away
+  -Block and Sky light are now utilizied seperately in the rendering, the highest value is what is shown
+  -During susnet skylight value falls off in a logarithmic pattern
+  -The color the sunlight will change during sunrise/sunset
+  -Added shadows within 256 blocks of the player
+  -Added a video setting for shadows
+  -Added a video setting for view bobbing
+  -Moved the settings for sound/music volume to the options menu
+  -Resized the Sun and Moon to be more accurate
+
+Alpha v0.17
+  -Prticles no longer render when farther than 32 blocks
+  -Heavily modified the block collision system
+  -Added Deer, spawnable with G
+  -Horizontal render distance is no longer set to 20 on first load
+  -Improved rendering efficiency
+  -Updates to the FPS count are no longer tied to framerate
+
+Alpha v0.16
+  -SAVE FORMAT CHANGED, PREVIOUS SAVES WILL NOT LOAD
+  -Added unlit torches
+  -Added wood shards
+  -Added a UI for creating unlit torches
+  -Added a flame textures to campfires
+  -Added the ability to get torches by clicking a campfire with an unlit torch in the hand
+  -Campfires now gradually burn out
+  -Campfires can be refueled with sticks or wood shards
+  -Added a drowning timer bar
+  -Items side pixels will no longer render through other pixels in the held item
+  -The Sun and Moon no longer render behind water
+
+Alpha v0.15
+  -Added sticks
+  -Added campfires
+  -Added right click functionality with the stone hand-axe
+  -Logs and stone now take 2 seconds to break
+  -Added UI for lighting fires
+  -Changed the texture for stone fragments
+  -Improved chunk loading and render rebuilding performance
+  -Added naturally spawning berry bush clusters
+  -Added berries
+  -Added the ability to eat food to restore health
+  -Leaves no longer drop leaf blocks
+  -Chunks now populate with trees when no stones spawn
+  -Blocks with a y value of -1 now appear lit
+  -Textures now clamp properly
+  -The chunk the player is in will now render properly upon reloading a world
+  -Newly created worlds start at sunrise
+
+Alpha v0.14
+  -Added block ticking, grass can decay into dirt and grass can spread onto dirt
+  -Added the ability to right click on the ground with certain items to place them
+  -Added a basic stone crafting UI
+  -Added a basic stone hand-axe
+  -Added stone fragments
+  -Added small stones to world generation
+  -Improved efficiency with generating trees
+  -Right clicking on an inventory slot will now add 1 to that stack
+  -Items that have durability will now use durability when breaking a block
+  -Items can now break
+  -The player can no lonber break blocks above a certain hardness without using the proper tool
+  -Block breaking timer is now faster if using the correct tool
+
+Alpha v0.13.1
+  -Entity physics are no longer tied to framerate
+
+Alpha v0.13
+  -Items now drop on death
+  -Items will drop in max stacks when dropped on death
+  -Items on the ground can now have a count higher than 1
+  -Torches will now properly re-light when loading a world
+  -Increased noisemap initialization speed
+  -Torches are now an item in the inventory instead of a block
+  -Item shadows now only appear when they are on the ground
+  -Items now hover up and down when dropped on the ground
+  -Added held item models for blocks and regular items
+  -Added view bobbing
+
+Alpha v0.12
+  -Added in a death screen and respawn point
+  -The player can now take fall damage if falling for greater than 3 blocks
+  -The plyaer can now drown if underwater for longer than 5 seconds
+  -In game UI elements now render properly underwater
+  -Added the ability to drop items from the inventory
+  -Added a drop key keybind
+  -Dropped items now have a delay when picking them up
+
+Alpha v0.11.3
+  -The game no longer repeatedly autosaves during world loading
+
+Alpha v0.11.2
+  -The game no longer repeatedly autosaves during world loading
+
+Alpha v0.11.1
+  -Added chunk occlusion culling
+  -Re-enabled the overlay when inside a block
+  -Enabled backface culling for celestial objects
+  -The game now saves when pausing the game and automatically every 5 minutes
+  -Saves now start halfway through the first day
+  -Water is no longer transparent at night
+
+Alpha v0.11
+  -Added an orbital map view accessible by pressing tab
+  -Added the Sun, Earth, and Moon to the orbital simulation
+  -Modeled the Sun and Moon around the player when the player is standing on Earth
+  -Added a day/night cycle based on orbitan and physical parameters
+  -Added a skybox for night differentiation
+  -Reduced memory usage per physics frame and render frame
+  -String colors on the main menu now properly render
+
 Alpha v0.10
   -Added the ability to left click and move items around the inventory
   -Added the ability to right click to split item stacks
