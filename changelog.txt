@@ -1,6 +1,6 @@
 Alpha v0.28
   -Added a crash window that will pop up if the main thread crashes, this will not detect OpenGL driver crashes
-  -Tech updte event now displays properly when a tech is known and locked
+  -Tech update event now displays properly when a tech is known and locked
   -Foraging I and Stone Hand Tools descriptions are now properly aligned
   -Added a tech description for Hunting I
   -Deer now take fall damage
