@@ -1,3 +1,27 @@
+Alpha v0.29
+  -WORLDS FROM PREVIOUS VERSIONS ARE INCOMPATIBLE
+  -Improved text field typing
+  -Added sounds for left and right clicking on stone crafting UI
+  -You can now right click to replace crafting materials
+  -Fixed a typo with Foraging II unlock requirement
+  -Added a tech description to Pottery I
+  -Added a tech event for cooking clay in a pit kiln
+  -Grass now spreads properly
+  -Added clay blobs to world generation
+  -Added clay adoble bricks and clay cooking pots
+  -Added a pottery crafting UI
+  -Straw chest blocks now show up properly in the crafting UI
+  -Knives no longer take durability when hitting item entities
+  -Crashes should now correclty trigger the crash window
+  -Added pit kilns for firing clay
+  -Added fire crackling sound effect for campfires and pit kilns
+  -Added clay step sound effect
+  -Center buttons no longer render when pressing the bug report button
+  -Oak logs now drop full size logs
+  -Torches should now stack properly
+  -Exiting inventories with an itemstack on the mouse will now drop the item
+  -Stone now plays a step sound again
+
 Alpha v0.28
   -Added a crash window that will pop up if the main thread crashes, this will not detect OpenGL driver crashes
   -Tech update event now displays properly when a tech is known and locked
