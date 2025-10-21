@@ -1,3 +1,29 @@
+Alpha v0.30
+
+Additiions:
+  -Added firewood piles, made by shifting and right clicking a block with firewood in hand, regular right click to remove
+  -Added brick piles
+  -Added fired adobe bricks
+Changes:
+  -Certain blocks will now drop/be destroyed when no longer under a solid block
+  -Adobe bricks now require 1 straw to craft
+  -Placing logs on fires/pit kilns now plays a sound
+  -Placing straw in a pit kiln now plays a sound
+  -Campfires now play sounds and spawn particles when lit
+  -Items now swap from mouse to inventory slot when left clicking with a different item
+  -Torches are no longer placed when lighting a pit kiln
+  -Raw piles of bricks can be fired in groups of up to 12
+  -Changed the size of the raw adobe brick item
+  -Campfires and pit kilns now burn the player when standing on them
+BugFixes:
+  -Raw clay items no longer duplicate when pit kilns finish
+  -Pottery tech event now properly logs on pit kiln finishing
+  -Leaf blocks no longer cause screen overlay
+  -Blocks in inventory an crafting UIs now have correct texture mapping
+  -Straw chest now shows up as a block model in the crafting UI
+  -Block time update events now save properly
+  -Berry bush berries/flowers are now offset properly from the berry bush
+
 Alpha v0.29
   -WORLDS FROM PREVIOUS VERSIONS ARE INCOMPATIBLE
   -Improved text field typing
