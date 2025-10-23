@@ -1,6 +1,22 @@
-Alpha v0.30
+Alpha v0.31
+Additions:
+  -Added an overlay that shows the name of the block the player is looking at
+  -Added message text on the in game UI and text fading
 
-Additiions:
+Changes:
+  -Increased the likelihood of clay spawning
+  -Spawnpoint can be set on campfires by shift right clicking
+  -Saves now autosave on initial load in case of a crash
+  -Recipe selectors in crafting UIs now show number of required materials
+
+Bugfixes:
+  -Time events now load properly
+  -Centered strings now draw in the correct position
+  -World loading screen now displays properly
+
+
+Alpha v0.30
+Additions:
   -Added firewood piles, made by shifting and right clicking a block with firewood in hand, regular right click to remove
   -Added brick piles
   -Added fired adobe bricks
