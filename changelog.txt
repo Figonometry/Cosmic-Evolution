@@ -20,6 +20,7 @@ Additions:
   -Added firewood piles, made by shifting and right clicking a block with firewood in hand, regular right click to remove
   -Added brick piles
   -Added fired adobe bricks
+
 Changes:
   -Certain blocks will now drop/be destroyed when no longer under a solid block
   -Adobe bricks now require 1 straw to craft
@@ -31,6 +32,7 @@ Changes:
   -Raw piles of bricks can be fired in groups of up to 12
   -Changed the size of the raw adobe brick item
   -Campfires and pit kilns now burn the player when standing on them
+
 BugFixes:
   -Raw clay items no longer duplicate when pit kilns finish
   -Pottery tech event now properly logs on pit kiln finishing
