@@ -1,3 +1,24 @@
+Alpha v0.32
+Additions:
+  -Added a visual indication for shifting
+  -Added the ability to place some items on the ground by shift right clicking
+  -Added mud item, made my shift right clicking dirt blocks on water
+  -Added red adobe blocks, shift right click a pile of 8 bricks with mud in hand to craft
+  -Added reeds, when fully grown they can be harvested by using a knife
+  -Added reeds to world generation
+
+Changes:
+  -Shifting will now slow the player's movement speed
+  -Shifting will now allow the player to peek over ledges
+  -Adjusted block placement logic
+  -Berry bushes are no longer random ticked, they will flower and ripen in 7 day cycles
+  -Lowered item stack limit to 64
+  -Axe right click function is now executed via shifting while breaking a log
+
+Bugfixes:
+  -Items will now get properly consumed when crafting
+
+
 Alpha v0.31
 Additions:
   -Added an overlay that shows the name of the block the player is looking at
