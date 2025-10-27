@@ -1,3 +1,17 @@
+Alpha v0.34
+  Additions:
+    -Added growth stages to reeds
+    -Added unlock feature for Foraging II tech
+    -Added saplings
+    -Added tree seeds
+    -Added leaf decay
+
+  Changes:
+    -Reduced shader sampler usage
+
+  Bugfixes:
+    -Entering too many characters when setting a world seed no longer causes crashes
+
 Alpha v0.33
   Additions:
     -Added berry seeds, craftable by right clicking a berry on the ground with stone fragments
