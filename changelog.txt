@@ -1,3 +1,18 @@
+Alpha v0.34.1
+  Removals:
+    -Removed the ability to right click stone materials to replace them in the crafting UI
+
+  Changes:
+    -Adjusted mouse sensitivity, sensitivity setting can now be set to a max of 1000%
+    -Holding left or right shift when adjusting % options now increases/decreases by 10%
+    -Improved performance related to leaf decay
+    -Reduced the odds of tree seeds dropping from leaves
+    -Required stone materials can no longer be left clicked in stone crafting UI
+    -Updated water wave animation
+
+  Bugfixes:
+    -Block breaking texture no longer z fights
+
 Alpha v0.34
   Additions:
     -Added growth stages to reeds
