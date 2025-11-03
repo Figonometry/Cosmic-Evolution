@@ -1,3 +1,20 @@
+Alpha v0.36
+  Changes:
+    -Logger will now show window if object initializers fail
+    -Info window will now show if game does not recieve launcher directory path
+    -Improved performance on orbital map
+    -Logs no longer auto UV
+    -Adjusted celestial object movement around the player
+    -Adjusted temperature and rainfall calculations
+
+Bugfixes:
+    -Blocks can now be broken on negative axes
+    -Fog works correctly on negative axes  
+    -Deer now render correctly on negative axes
+    -Particles now render correctly on negative axes
+    -Dropped items now render correctly on negative axes
+    -Skybox now rotates correctly with celeestial objects
+
 Alpha v0.35
   Additions:
     -Added dynamically generated Earth textures per save
