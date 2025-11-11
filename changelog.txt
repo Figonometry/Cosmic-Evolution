@@ -13,7 +13,7 @@ Bugfixes:
     -Deer now render correctly on negative axes
     -Particles now render correctly on negative axes
     -Dropped items now render correctly on negative axes
-    -Skybox now rotates correctly with celeestial objects
+    -Skybox now rotates correctly with celestial objects
 
 Alpha v0.35
   Additions:
