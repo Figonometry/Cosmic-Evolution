@@ -1,3 +1,37 @@
+Alpha v0.37
+  Additions:
+    -Added weather systems:
+        -Clear
+        -Partly Cloudy
+        -Overcast
+        -Stratus Rain
+        -Thunderstorm Rain
+    -Added clouds:
+        -Cumulus
+        -Stratus
+        -Cirrus
+        -NimboStratus
+        -Cumulonimbus
+    -Added rain sounds:
+        -Inside
+        -Outside
+        -Under a tree
+    -Added a wind effect to tall grass
+    -Added wind sounds
+    -Added rain particles and rain textures
+    -Added ground fog effect when raining
+
+  Changes:
+    -Sky will now darken during rainstorms
+    -Sky color will now change during rainstorms/cloudy weather
+    -Celestial objects will now dissapear during rainstorms/cloudy weather
+    -Tweaked the intensity of normal lighting
+
+  Bugfixes:
+    -Sunset texture now rotates to always face the player
+    -Entity shadows now render correctly on negative axes
+    -Particles now render correctly on negative axes
+
 Alpha v0.36
   Changes:
     -Logger will now show window if object initializers fail
