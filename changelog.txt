@@ -1,3 +1,30 @@
+Alpha v0.38
+  Additions:
+    -Added saturation, decreases passively over time, quicker when the player is hurt
+    -Added saturation bar to in game UI
+    -Added unlit torch blocks, can be ignited by shift right clicking while holding a lit torch
+    -Added cooked venison, made by cooking venison on a campfire
+    -Added a campfire cooking UI, accesed by right clicking a campfire
+
+Changes:
+    -Health now passively regenerates
+    -The player can now starve if saturation is 0
+    -Food items now only restore saturation
+    -Increased the saturation increase of berries from 5 to 50
+    -Reduced the size of the heatlh bar on the in game UI
+    -Changed the color of the health bar
+    -Torches will now burn out after two in game days
+    -Raw venison can now be stacked up to 64
+    -Torches can now be used to light campfires
+    -Firewood can now be used as a fuel in a campfire
+    -Torches, pit kilns and campfires will now extinguish when under rainfall
+
+Bugfixes:
+    -Tall grass no longer stretches too far from wind effect
+    -Correct rain sound now plays when standing on top of leaves
+    -Items can now longer be placed floating above the ground (ground placement)
+    -Torches now have proper display name
+
 Alpha v0.37
   Additions:
     -Added weather systems:
