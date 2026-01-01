@@ -1,3 +1,31 @@
+Alpha v0.38.1
+  Changes:
+    -Unlit torch item texture now matches the block
+    -Punching animation no longer plays when in a GUI
+    -Campfires when fully created now start with 4 firewood in the fuel slot
+    -Sticks, stones, and clay no longer have a collision box
+    -Hitting the escape key in the pause menu will now unpause the game
+    -Tall grass growth is now capped per chunk
+    -Newly spawning clouds no longer affect calculations for determining if it should be raining
+    -Rain particles now appear on water
+
+  Bugfixes:
+    -North facing unlit torches will no longer drop mud when broken
+    -Campfires now set spawnpoints properly again
+    -Grass no longer stretches too far from wind effect
+    -Creating a campfire no longer causes a crash
+    -Sticks, stones, and clay can no longer be placed in a floating state
+    -Food no longer gets consumed when opening a chest
+    -Chunks no longer flicker when moving around
+    -Block faces no longer fail to render after breaking/placing a block
+    -Fully solid chunks with exposed faces should now render
+    -Shifting near blocks with smaller collision boxes no longer causes the player to jump up suddenly
+    -Fall damage calculation now uses the Y value of the block below the player instead of the player's Y value
+    -Rain quads no longer overflow internally
+    -Rain fog effect now properly works on dropped items, entities and shadows
+    -Celesetial objects no longer move position when moving through chunks
+    -Speed is now reduced correctly when jumping out of water
+
 Alpha v0.38
   Additions:
     -Added saturation, decreases passively over time, quicker when the player is hurt
