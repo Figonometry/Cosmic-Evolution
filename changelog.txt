@@ -1,3 +1,19 @@
+Alpha v0.39
+  Additions:
+    -Added 3D crafting
+
+  Changes:
+    -Changed all stone, clay, and reed crafting from the old 2D UI to the new 3D system
+
+  Removals:
+    -Removed the tech tree system
+    -Removed the tech tree UI
+    -Removed in game changelog screen
+
+  Bugfixes:
+    -Counging loaded entities no longer causes a crash
+    -Trying to play a sound effect without a valid audio output will no longer crash
+
 Alpha v0.38.1
   Changes:
     -Unlit torch item texture now matches the block
