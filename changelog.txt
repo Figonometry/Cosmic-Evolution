@@ -1,3 +1,18 @@
+Alpha v0.40
+  Additions:
+    -Added the ability to screenshot, done by pressing F2
+    -Added a button to the settings menu to open the screenshot folder in the file explorer
+    -Added a world deletion confirmation screen
+    -Added a difficutly settings menu accessible from the create new world screen and rename world screen
+    -Added "Drop Inventory On Death" as a configurable difficutly setting, defaults to true
+
+  Changes:
+    -Moved the delete file button to be up near the selected file, like the rename world button
+
+  Bugfixes:
+    -Save files now displaying "MISSING FILES" will bring up the world deletion confirmation instead of resulting in a crash
+    -Save files with corrupted level data files will now bring up the world deletion confirmation instead of resulting in a crash
+
 Alpha v0.39
   Additions:
     -Added 3D crafting
