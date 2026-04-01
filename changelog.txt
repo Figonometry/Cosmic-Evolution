@@ -1,3 +1,27 @@
+Alpha v0.41
+  Additions:
+      Items:
+        -Added reed twine
+        -Added stone axe
+        -Added stone knife
+        -Added stone shovel
+        -Added primitive crafting grid top
+      Blocks:
+        -Added a primitive crafting table
+      General:
+        -Added a 3D crafting recipe for reed twine
+        -Added a 3D crafting recipe for primitive crafting grid top
+        -Added general crafting recipes for stone axe, stone knife, and stone shovel
+        -Added a general crafting system, right click to place items
+
+  Changes:
+      -Reduced stack size of stone item from 100 to 64
+      -Recipe selectors in UIs will now be darker if the player does not have the required materials
+
+  Bugfixes:
+      -Fixed multiple OpenGL crashes
+      -Fixed dropped items not saving durability when exiting the world
+
 Alpha v0.40
   Additions:
     -Added the ability to screenshot, done by pressing F2
