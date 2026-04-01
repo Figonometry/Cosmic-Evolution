@@ -17,6 +17,7 @@ Alpha v0.41
   Changes:
       -Reduced stack size of stone item from 100 to 64
       -Recipe selectors in UIs will now be darker if the player does not have the required materials
+      -Flipped the texture for sticks
 
   Bugfixes:
       -Fixed multiple OpenGL crashes
