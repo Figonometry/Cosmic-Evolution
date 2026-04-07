@@ -1,3 +1,28 @@
+Alpha v0.42
+  Additions:
+    -Added asset packs, info on how to make is located in the game's asset folder
+    -Added an asset pack menu
+    -Added a command system and the following commands: teleport, giveItem, giveBlock, heal, freeMove, speed, this is for internal use primarily
+    -Added a testing mode option in difficulty settings, allows the use of the command system, time controls and the debug menu, will dissapear later in development
+
+  Changes:
+    -Updated the textures for stone axe, shovel and knife
+    -Updated stick texture back to original position
+    -Moved mouse sensitivity to the controls menu
+    -Move transparent leaves setting to page one of the video settings menu
+    -Adjusted the player starting position to be less likely to favor deserts
+    -Adjusted the time when starting a new world to account for the player's longitude
+    -Items in inventory slots will no longer have their names rendered if holding an item on the mouse
+    -Text fields for renaming world and naming world will now start clicked
+
+  Bugfixes:
+    -Fixed crashing on the main menu video settings when toggling transparent leaves
+    -Fixed the player being unable to eat food
+    -Fixed a crash if a chunk had no opaque blocks but had only transparent blocks
+    -Fixed numpad keys entering multiple numbers when pressed on text fields
+  
+    
+
 Alpha v0.41
   Additions:
       Items:
