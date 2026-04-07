@@ -1,3 +1,11 @@
+Alpha v0.42.1
+    Bugfixes:
+      -Fixed holding the O key spamming text fields
+      -Fixed being unable to enter / on the command screen
+      -Fixed transparent blocks rendering in incorrect locations
+      -Fixed respawning placing you 2 billion blocks below sea level
+      -Fixed the z coordinate not being saved for respawning
+
 Alpha v0.42
   Additions:
     -Added asset packs, info on how to make is located in the game's asset folder
