@@ -1,3 +1,21 @@
+Alpha v0.43
+    Additions:
+        -Added a player model
+        -Added the player model to the inventory screen
+        -Added a walk animation for the player
+        -Added a block breaking animation for the player
+        -Added the player hand to the in game UI when not holding any items
+        -Added 3D particles
+        -Added particles when beraking blocks
+
+    Changes:
+        -All entities now cast shadows when shadows setting is enabled
+        -Crafting item input items only require clicking on the block 
+        -Doubled gravitational acceleration
+
+    Bugfixes:
+        -Fixed particles always being unlit
+
 Alpha v0.42.1
     Bugfixes:
       -Fixed holding the O key spamming text fields
