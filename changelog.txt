@@ -1,3 +1,42 @@
+Alpha v0.44
+    Additions:
+        -Added a world saving screen
+        -Added raw deer hide
+        -Added rot
+        -Added food decay
+        -Added wolves, will spawn at night and attack the player
+        -Added wolf hurt and ambient sound effects
+
+    Changes:
+        -Improved chunk loading/saving/render mesh stuttering
+        -Entity cap now only includes living entities
+        -The player can now only spawn during the first half of the day
+        -Cloud Alpha values will now cap at 229
+        -Updated snow texture
+        -Halved the vertical movement from swimming
+        -Halved speed when shifting/swimming
+        -View Bobbing no longer occurs when shifting/swimming
+        -Changed player swimming
+        -Deer now swim
+        -Updated settings parsing to support Asset packs on Linux
+        -Imrpoved responsiveness of text fields 
+        -Create new world and rename world text fields will save when openining difficulty settings menu
+        -Deer now fall into a death pose when killed instead of immediatly dissapearing
+        -Deer are now harvested by right clicking their corpse with a knife and shifting
+        -Hovering over a food item in the inventory will now display how long until it decays
+
+    Bugfixes:
+        -Snow blocks now play sound again
+        -Entities will now longer fall through the world if the chunks aren't loaded fully
+        -Fixed an issue with thrown entities affecting transparent block shadows
+        -Initial loading of an options file would cause a null pointer to throw
+        -Celestial object rendering now accounts for the planet's axial tilt
+        -Fixed the top of the player's hand always rendering with full brightness
+        -Fixed deer sometimes not having a loaded texture
+        -Rain putting out fire will now play the extinguishing sound effect
+
+
+
 Alpha v0.43
     Additions:
         -Added a player model
@@ -15,6 +54,8 @@ Alpha v0.43
 
     Bugfixes:
         -Fixed particles always being unlit
+
+
 
 Alpha v0.42.1
     Bugfixes:
