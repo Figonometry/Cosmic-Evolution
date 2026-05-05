@@ -1,3 +1,27 @@
+Alpha v0.45
+    Additions:
+        -Added a command list within the command entry UI
+        -Added Wolf Pelt item
+        -Added primitive doors, can occasionally break
+        -Added a summon entity command
+        
+    Changes:
+        -Changed the name of Deer Hide to Deer Pelt
+        -Changed the name of Venison to Game Meat
+        -Wolves now drop Wolf Pelts when skinned instead of Deer Pelts
+        -Deer now run away from the player when hit
+        -Increased wolf detection range to 16 blocks
+        -Deer now run directly away from the player when damaged
+        -Deer will now alert other nearby deer within 16 blocks
+        -Blocks that cannot be broken will still generate particles when attempting to break
+        -Increased the number of particles generted when breaking blocks
+        -Particles no longer appear from the center of the block face when breaking
+
+    Bugfixes:
+        -Fixed a bug where 3d crafting grids would not load properly
+        -Made firewood pixel consistent
+        -Fixed a crash bug if no options file existed on game start
+
 Alpha v0.44
     Additions:
         -Added a world saving screen
