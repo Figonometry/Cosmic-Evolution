@@ -1,3 +1,27 @@
+Alpha v0.46
+    Additions:
+        -Added a crafting recipe for doors
+
+    Changes:
+        -Changed the stick block texture
+        -The following items have been removed and will now use their block variants in the inventory:
+            -Stone 
+            -Stick 
+            -Torches, lit and unlit
+            -Berry, tree, and reed seeds
+            -Clay
+        -Improved shadow map efficiency
+        -Crafting recipes now support blocks as input
+        -Updated the dirt texture
+        -Replaced all item textures with models
+        -Can now pick up items on the ground when holding the same item
+        -Updated the reeds block model
+
+
+    Bugfixes:
+        -The correct torch variant is now placed when clicking on the side of blocks
+        -Fixed the durability bar not being colored correctly when paused
+
 Alpha v0.45
     Additions:
         -Added a command list within the command entry UI
