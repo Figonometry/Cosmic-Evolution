@@ -1,3 +1,37 @@
+Alpha v0.47
+    Additions:
+        -The player now can hold a torch to have a dynamic light source
+        -Added a throwing sound when dropping items
+        -Added a twine binding sound
+        -Added a clunk sound when placing items on a crafting table
+        -Added deer pelt clothing
+        -Added wolf pelt clothing
+        -Added the ability to turn deer/wolf pelts into clothing
+        -Added a clear command to clear the player's inventory
+
+    Changes:
+        -Changed the seed model
+        -Changed the sapling model
+        -Changed the primitive crafting table model
+        -Doors now lay on their sides when thrown as items
+        -Made shadows smoother
+        -Held items now cast shadows
+        -Held items now render in the player's hand in the inventory UI
+        -Clothing now renders on the player
+        -Updated the player's default texture
+
+
+    Bugfixes:
+        -Animals no longer continue to swim when dead
+        -Transparent leaves now move when leaf movement setting is enabled
+        -Fixed crafting table items not properly being detected when clicked
+        -Fixed crafting table UI opening after the player completes an item
+        -Fixed animals always being fully lit at night
+        -Thrown doors now cast the correct shadow
+        -Fixed a crash when crushing berries to make berry seeds
+        -Items no longer respawn under the ground
+        -Raw game meat no longer immediatly decays after being harvested
+
 Alpha v0.46
     Additions:
         -Added a crafting recipe for doors
