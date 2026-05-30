@@ -1,3 +1,38 @@
+Alpha v0.48
+    Additions:
+        -Added flowing water
+
+        -Added the following items:
+            -Stone Hoe Head
+            -Stone Hoe
+            -Bone
+            -Bonemeal
+            -Wild Grass Seed
+            -Einkorn Wheat Seed
+            -Einkorn Wheat
+
+        -Added a recipe for making a Stone Hoe Head
+        -Added a recipe for making a Stone Hoe
+
+        -Added the ability to fertilize tilled soil with bonemeal to domesticate crops
+        -Added a crop domestication system
+        -Added a UI to select which crop to domesticate
+
+        
+    Changes:
+        -Reduced the height of the water wave setting to prevent it from going over the top of blocks
+        -Water wave setting no longer moves the texture's UV coordinates
+        -Moved held block model to the right on HUD to match held items
+        -Can no longer place stone fragments on the ground
+        -Wolf and Deer now drop bones
+        -Wolf and Deer corpses now drop items on ground instead of placing in the player's inventory
+
+
+    Bugfixes:
+        -Fixed time events not working
+        -Fixed a bug where time would increase when loading a world
+
+
 Alpha v0.47
     Additions:
         -The player now can hold a torch to have a dynamic light source
