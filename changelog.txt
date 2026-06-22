@@ -1,3 +1,20 @@
+Alpha v0.49
+    Additions:
+        -Added Emmer wheat
+        -Added Standard Wheat
+        -Added Spelt Wheat
+        -Added dead crops
+    
+    Changes:
+        -Adjusted the quantity of wheat dropped from wheat crops
+        -Added a min and max temperature to crops
+        -Crops now die when above or below the temperature thresholds for greater than 7 days
+
+    Bugfixes:
+        -Fixed a bug where tall grass would always drop seeds, tall grass now drops seeds 10% of the time
+        -Sticks no longer generate on the ground when growing trees from saplings
+        -Fixed item state not being preserved when dropping an item stack from the mouse
+
 Alpha v0.48
     Additions:
         -Added flowing water
