@@ -1,3 +1,27 @@
+Alpha v0.50
+    Additions:
+        -Added a model for a cooking setup on campfires, made by right clicking with sticks
+        -Added a model for cooking food on campfires
+        -Added smoke particles when cooking food on campfires
+
+    Changes:
+        -Right clicking with logs in hand now directly places them in the campfire
+        -Right clicking with raw game meat in hand now places it on the campfire, can only cook 1 meat a time
+        -Campfires will now show the proper amount of logs in the inventory as fuel is used
+
+    Removals:
+        -Removed the fire lighting GUI
+        -Removed campfire GUI
+        -Temporarily removed the rendering of rain and clouds due to performance
+
+    Bugfixes:
+        -Growing reeds now used the correct model
+        -Fixed pile blocks not updating render state
+        -Campfires no longer generate particles or make noise when the campfire is not lit
+        -Campfires now produce fire particles again
+        -Campfires now properly burn out
+        -Campfires now require a solid block underneath
+
 Alpha v0.49
     Additions:
         -Added Emmer wheat
