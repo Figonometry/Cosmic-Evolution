@@ -1,3 +1,33 @@
+Alpha v0.51
+    Additions:
+        -Pressing G toggles sit mode, the player cannot move in this state, attempting to move will make the player stand back up
+        -Added Stone Spear Heads
+        -Added Stone Spear Head crafting recipe
+        -Added Stone Spears, Spears have an extended reach of 4 blocks, they can only hit entities and the hit occurs when the spear is fully extended
+        -Added a left click animation for Spears
+        -Added thrown spear entities, when colliding with an entity both the entity and the item will take damage
+        -Added a crosshair outline when drawing back to throw spears
+        -Added a crafting recipe for stone spears
+        -Added a sound for spear landing in blocks
+        -Added a sound for spear stabbing
+        -Added a sound for hitting an entity with a projectile
+
+    Changes:
+        -Updated the player model to sit when in the sitting state
+
+    Bugfixes:
+        -Fixed Deer and Wolves not turning red when damaged
+        -Fixed being able to damage entities by right clicking
+        -Fixed deer not getting properly alerted when damaged by the player
+        -Fixed a bug that prevented deer and wolves from jumping
+        -Fixed ambient sounds causing crashes when using asset packs
+        -Fixed fog being broken for thrown entities and particles
+        -Fixed being able to set spawn point when the campfire was not lit
+        -Fixed the campfire base's texture UV
+        -Fixed dead deer despawning
+        -Fixed Item state not being saved/loaded and not being passed to thrown entities
+
+
 Alpha v0.50
     Additions:
         -Added a model for a cooking setup on campfires, made by right clicking with sticks
