@@ -1,3 +1,42 @@
+Alpha v0.52
+    Additions:
+        -Added a command to kill all entities of a specified type
+        -Added snow layers
+        -Added snowy grass side textures for both grass and clay 
+        -Added ice blocks
+        -Added sliding on ice blocks after stopping
+        -Added ice block step sound
+        -Added a frost effect in cold biomes 
+
+
+
+    Changes:
+        -Shrunk world size by a factor of 10
+        -Reduced noise sampling interval by a factor of 4
+        -Removed all non water blocks from the transparent draw buffer, should have a positive impact on performance
+        -Adjusted global heightmap by raising to an exponent of 3
+        -Adjusted the grass color in colder biomes
+        -Adjusted latitude temperature calculations, equatorial regions were too cold
+        -Properly applied secondary temeprature and rainfall noisemaps to vary the climate properly
+        -Adjusted noise sampling to reduce straight line borders between desert and non-desert
+        -Adjusted tree density in generation to give more proper forested areas
+        -Temperature continues to scale past the north/south pole, it will get colder as you get further and further from the equator
+        -Improved skylighting performance
+        -Improved world structure generation performance
+        -Sandy deserts no longer generate at cold climates below 30F
+        -Chunk loading/unloading/population is no longer tied to framerate
+        -Moved chunk population off the main thread
+        -Updated the snow step sound
+
+
+    Bugfixes:
+        -Fixed a crash bug with 2D noisemaps at extreme x/z values
+        -Fixed all global noisemaps being identical
+        -Fixed global noisemaps being improperly sclaed on the z axis
+        -Fixed cactus overwriting other blocks during world generation
+        -Fixed non-full block hit detection
+
+
 Alpha v0.51
     Additions:
         -Pressing G toggles sit mode, the player cannot move in this state, attempting to move will make the player stand back up
