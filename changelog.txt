@@ -1,3 +1,14 @@
+Alpha v0.52.1
+    Bugfixes:
+        -Fixed a crash relating to clicking 3D crafting blocks
+        -Fixed being able to place a knife on the ground on the same tick as skinning an animals
+        -Fixed unlit torch crafting accidentally creating air blocks instead of unlit torches
+        -Fixed the recipe selectors for reed twine and the primitive crafting grid top not displaying their names on the reed crafting UI
+        -Fixed being able to place torches on other torches
+        -Implemented a guard to prevent OpenGL crashes when rendering chunks, report any OpenGL crashes
+        -Fixed all water always turning into ice
+
+
 Alpha v0.52
     Additions:
         -Added a command to kill all entities of a specified type
