@@ -1,3 +1,126 @@
+Alpha v0.53
+    Additions:
+            -Added the following blocks:
+                -Barren Fertility Soil
+                -Low Fertility Soil
+                -Medium Fertility Soil
+                -High Fertility Soil
+                -Small patch, low patch and full grassy versions of the above blocks
+                -Andesite stone, gravel, and sand
+                -Granite stone, gravel, and sand
+                -Periodite stone, gravel, and sand
+                -Obsidian stone, gravel, and sand
+                -Basalt stone, gravel, and sand
+                -Gabbro stone, gravel, and sand
+                -Chalk stone, gravel, and sand
+                -Chert stone, gravel, and sand
+                -Claystone stone, gravel, and sand
+                -Conglomerate stone, gravel, and sand
+                -Shale stone, gravel, and sand
+                -Limestone stone, gravel, and sand
+                -Sanstone stone, gravel, and sand
+                -Marble stone, gravel, and sand
+                -Slate stone, gravel, and sand
+                -Phyllite stone, gravel, and sand
+                -Sperentinite stone, gravel, and sand
+                -Added stone items for the aformentioned stone types
+
+            -Added the following new textures:
+                -Barren soil
+                -Low fertility soil
+                -Medium fertility soil
+                -High fertility soil
+                -Small grass patches side, top, and snowy variations 
+                -Large grass patches side, top, and snowy variations 
+
+            -Added a tooltip system that displays when hovering over certain blocks in the world, alternative tooltips will cycle every 2 seconds, can be disabled
+        
+            -Added tooltips for the following blocks:
+                -Tall Grass 
+                -Berry Bushes 
+                -Campfires 
+                -3D Crafting Blocks 
+                -Crafting Table recipe blocks 
+                -Reeds
+                -Pile blocks
+                -Item blocks
+                -Grass
+                -Soil
+                -Placed Stick
+                -Placed Stone
+                -Placed Clay
+
+            -Added a video setting for block tooltips
+            -Added a tooltip over dead animals indicating you can harvest them
+            -Added sprinting, increase speed by 1.5 and doubles hunger rate
+            -Added keybindings for crouching, sprinting, and sitting
+            -Added block gravity for sands and gravels
+            -Added a geologic province system
+
+        Changes:
+            -Worlds from previous versions are no longer loadable due to the compression of various block types into a singular ID and a unification of an internal block state system to include the following:
+                -Oak Logs
+                -Torches
+                -Campfires
+                -Berry bushes
+                -Reeds
+                -Doors
+                -Flowing water
+                -Pit Kilns
+
+            This system will be used going forward, report any bugs regarding the aformentioned blocks
+
+
+            -The crash window will now open the crash report folder if clicked on
+            -Renamed Dirt to Soil
+            -Soil fertility now interacts with crop growth speed
+            -Soil fertility determines the max nutrient cap when letting nutrients regenerate in the soil
+            -Tall grass will not grow on Barren soil
+            -Clay blocks can only have up to large grass patch levels, making them easier to spot from above
+            -Changed Sand step sound (credit for the sound goes to Zinn)
+            -Shrank the Straw item model
+            -Campfire interactions now have a cooldown of one second if the right mouse button is not released
+            -Updated the skybox
+            -Updated the block breaking texture to be transparent
+            -View bobbing moves faster if sprinting
+            -Player walking animation moves faster if sprinting
+            -Excluded some block textures from the frost shader effect
+            -Grass will now shift to a snowy top texture if the temperature is below 30F
+            -You can now right click on both ground stones and ground sticks to pick them up
+            -Disabled the greedy meshing system due to issues with certain shader effects, will enable later
+            -Snow layers can now have blocks placed in their exact location
+            -Sand, stone, and item stones now generate different types based on the new geologic province system
+            -3D crafting will now show the stone type used
+            -Deserts now generate gravel underneath the sand
+
+        Removals:
+            -Removed 47 duplicate Oak Log blocks
+            -Removed North,South,East, and West facing torch type blocks
+            -Removed 27 duplicate Flowing Water blocks
+            -Removed 2 duplicate Berry Bush blocks
+            -Removed 6 duplicate Reed blocks
+            -Removed 9 duplicate Pit Kiln blocks
+            -Removed 16 dupliate Primitive Door blocks
+            -Removed Sand
+            -Removed Stone
+            -Removed ItemStone
+
+        Bugfixes:
+            -Fixed a bug where campfire block state would get cleared by rainfall
+            -Fixed a bug where a campfire block would always damage the player even when not lit
+            -Fixed a bug where unlit torches would be placed when right clicking on a ripe berry bush
+            -Fixed a bug where if reeds were unable to grow due to block obstruction they would never be able to grow again even if the obstruction was removed
+            -Fixed a bug where fov would not be properly set when starting the game
+            -Fixed a bug where readjusting the window size would not adjust the UI projection
+            -Fixed a bug where logs could continously be added to pit kilns despite reaching the maximum
+            -Fixed a bug where the previous displayed block name would stay on the screen when looking at air
+            -Fixed a bug where the reach distance was 1.5 times further than it should have been
+
+        Technical:
+            -Compressed various block states into one cohesive structure
+            -Added new block states to compress duplicate blocks
+            -Reduced the memory footprint of 2D Noisemaps
+
 Alpha v0.52.1
     Bugfixes:
         -Fixed a crash relating to clicking 3D crafting blocks
