@@ -1,3 +1,26 @@
+Alpha v0.53.1
+    Bugfixes/Changes:
+        -Fixed 3d stone crafting not using the proper block material
+        -Fixed geologic province rock types not being deterministic
+        -Fixed a bug where dropped items would attempt to save item states even if they didnt have any
+        -Fixed a bug where grass block tooltips would show up with the stone hoe head instead of the stone hoe
+        -Fixed grass not growing back fully
+        -Fixed barren soil grass textures being broken
+        -Fixed low fertility side grass textures being broken
+        -Attempted a fix on OpenGL segfaults relating to rendering transparent blocks
+        -Fixed the wrong texture being used on berry bush seeds
+        -Fixed the wrong texture being used on tree seeds
+        -Fixed a lighting bug caused by chunk retrieval synchronization
+        -Rewrote the lighting algorithim for Skylight and Block lighting
+        -Split lighting logic off of the main thread to a worker thread
+        -Fixed a bug where underground faces would render when they shouldnt
+        -Chunks no longer save face rendering masks, these are now calculated at runtime
+        -Halved the memory usage from storing light values
+        -Fixed the world loading screen exiting too early
+        -Reduced the noisiness of the gravel blocks
+        -Fixed a visible seam on the in world skybox
+
+
 Alpha v0.53
     Additions:
             -Added the following blocks:
