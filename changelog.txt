@@ -1,3 +1,57 @@
+Alpha v0.54
+        Additions:
+        -Added a /setBlock command, takes 4 arguments, 3 ints for the block coordinates and a short for the block ID
+        -Added a debug key to flush loaded chunk render states, F3 + A
+        -Added particles when breaking voxels on 3D stone tool crafting
+        -Added flint 
+        -Added tool variations for stone tools:
+            -Andesite
+            -Basalt
+            -Granite
+            -Obsidian
+            -Chert
+            -Flint
+        -Added differing durability modifiers for the stone types:
+            -Chert, Flint: have the same durability as default
+            -Andesite, Granite: 1.5 times default
+            -Basalt: 2 times default
+            -Obsidian 2.5 times default
+        -Added a dynamic lights option to disable lighting when holding a torch, defaults to false
+        -Added option sliders
+
+    Changes:
+        -Pressing escape now exits an inventory
+        -Made beaches vary in starting height
+        -Rotated dropped torch models
+        -Incrased size of dropped torch models
+        -Increased the max stones per chunk
+        -20% of all surface stones spawned will be flint
+        -Restricted stone tool crafting to Andesite, Granite, Basalt, Chert, Obsidian, and Flint
+        -Made snow layers fall when breaking the block underneath them
+        -Tall grass can no longer be harvested with a knife blade
+        -Crafting table recipe requirement now renders above the recipe selections
+        -Updated the primitive crafting table UI background
+        -Updated the clay crafting UI
+        -Updated the seed domestication UI
+        -Updated the reed crafting UI
+        -Updated the stone crafting UI
+        -Re-enabled the chunk drawing to the shadow map
+        -Made music volume, sound volume, mouse sensitivity, and FOV into sliders
+        -Adjusted sensitivity internally
+        -Updated the button texture
+
+    Bugfixes/Changes:
+        -Fixed 3D crafting stone tools allowing you to place voxels and break invalid voxels
+        -Fixed a crash bug when placing item blocks on the ground
+        -Fixed the seed model texture
+        -Fixed Emmer wheat seed item model not being in assets
+        -Fixed the pitch calculation for thrown spears
+        -Fixed the tooltip for knapping stone tools
+        -Fixed a crash bug if right clicking small stones with an empty hand
+
+    Technical:
+        -Removed some syncronization locks that were affecting thread resolving speed
+
 Alpha v0.53.1
     Bugfixes/Changes:
         -Fixed 3d stone crafting not using the proper block material
