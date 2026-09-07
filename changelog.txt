@@ -1,3 +1,10 @@
+Alpha v0.54.1
+    Bugfixes:
+        -Fixed being unable to double click the buttons to save/delete worlds
+        -Fixed the wrong logic being used to determine recipes in the crafting table
+        -Fixed the wrong display name for sticks being used when crafting at the crafting table
+        -Fixed twine not dipslaying the proper model when binding
+
 Alpha v0.54
         Additions:
         -Added a /setBlock command, takes 4 arguments, 3 ints for the block coordinates and a short for the block ID
