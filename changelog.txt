@@ -1,3 +1,30 @@
+Alpha v0.55
+
+    Additions:
+        -Added caves
+     
+    Changes:
+        -Updated the clay texture
+        -The various stone types no longer have equal chance to generate
+        -Respawning now spawns you with half saturation instead of no saturation
+        -Held torches now light up the surrounding area with the correct color
+        -Re-enabled cloud rendering
+        -Re-enabled rain rendering
+        -Re-enabled weather system generation
+        -Increased the size of dropped blocks
+        -Clouds now have fog effects
+
+    Bugfixes:
+        -Fixed a crash bug when adjusting render distance from the main menu
+        -Fixed a crash bug when giving blocks
+        -Fixed a crash bug when opening the pottery GUI
+        -Fixed a lighting bug with skylighting in underground spaces
+        -Fixed a saving bug with torch block states
+        -Fixed a bug where a new weather system would not be generated after the previous one would clear
+
+    Technical:
+        -Reduced Chunk memory usage
+
 Alpha v0.54.1
     Bugfixes:
         -Fixed being unable to double click the buttons to save/delete worlds
